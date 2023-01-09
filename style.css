@@ -1,0 +1,83 @@
+.header{
+    width: 100%;
+    height: 150px;
+    background-image: url('https://t4.ftcdn.net/jpg/03/54/72/63/360_F_354726339_wDkWbhZDjFvxYafghZ5lvEv5kRVsY35L.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    border: 5px solid brown;
+}
+.body{
+    background-color:rgb(238, 229, 210);
+    border: 5px solid brown;
+}
+#header-text{
+    color: #fff;
+    padding: 50px;
+    font-size: 40px;
+}
+.body1{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.body2{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.body3{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.division{
+    background-color: rgb(90, 90, 132);
+    width: 450px;
+    height: 450px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 20px;
+    border: 5px  double  red;
+}
+.division:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.body-header{
+    color:rgb(2, 2, 39);
+    text-align: center;
+    text-decoration:underline ;
+    font-family: 'Secular One', sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.dish-heading{
+    color:antiquewhite;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+.dish-text{
+    color: beige;
+    text-align: justify;
+    font-family: 'Indie Flower', cursive;
+}
+.link{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+.link-button{
+    height: 45px;
+    background-color: black;
+    margin-left: 97px;
+    border: 5px ridge yellow;
+    border-radius: 15px;
+}
+.link-button:hover{
+    background: blue;
+}
